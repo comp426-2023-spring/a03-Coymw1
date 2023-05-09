@@ -1,0 +1,14 @@
+{
+  "name": "node-rpsls",
+  "version": "1.0.0",
+  "description": "rock paper scissors",
+  "main": "./lib/rpsls.js",
+  "scripts": {
+    "test": "node-rps"
+  },
+  "author": "coymw1",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
