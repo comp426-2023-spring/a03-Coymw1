@@ -35,6 +35,7 @@ if (args.r || args.rules) {
     - Rock CRUSHES Scissors`)
 }
 
+//tries to print result to console, prints the rules if error is thrown (when using out of scope item)
 var i = args._[0];
 try {
     console.log(JSON.stringify(rpsls(shot)))
@@ -49,6 +50,11 @@ try {
       node-rps        Return JSON with single player RPS result.
                       e.g. {"player":"rock"}
       node-rps rock   Return JSON with results for RPS played against a simulated opponent.
-                      e.g {"player":"rock","opponent":"scissors","result":"win"}`);
+                      e.g {"player":"rock","opponent":"scissors","result":"win"
+                      Rules for Rock Paper Scissors:
+
+    - Scissors CUTS Paper
+    - Paper COVERS Rock
+    - Rock CRUSHES Scissors`);
     process.exit(0);
 }
