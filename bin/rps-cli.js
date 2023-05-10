@@ -29,7 +29,7 @@ if (args.r || args.rules) {
 }
 
 //tries to print result to console, prints the rules if error is thrown (when using out of scope item)
-var i = args._[0];
+let i = args._[0];
 try {
     console.log(toString(rps(i)))
 } catch {
