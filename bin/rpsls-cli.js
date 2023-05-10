@@ -37,7 +37,7 @@ if (args.r || args.rules) {
 
 var i = args._[0];
 try {
-    console.log(toString(rpsls(shot)))
+    console.log(JSON.stringify(rpsls(shot)))
 } catch {
     console.log(`Usage: node-rps [SHOT]
     Play Rock Paper Scissors (RPS)
