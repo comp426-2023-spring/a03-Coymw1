@@ -31,7 +31,7 @@ if (args.r || args.rules) {
 //tries to print result to console, prints the rules if error is thrown (when using out of scope item)
 var i = args._[0];
 try {
-    console.log(JSON.stringify(rps(shot)))
+    console.log(JSON.stringify(rps(i)))
 } catch {
     console.log(`Usage: node-rps [SHOT]
     Play Rock Paper Scissors (RPS)

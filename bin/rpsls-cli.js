@@ -38,7 +38,7 @@ if (args.r || args.rules) {
 //tries to print result to console, prints the rules if error is thrown (when using out of scope item)
 var i = args._[0];
 try {
-    console.log(JSON.stringify(rpsls(shot)))
+    console.log(JSON.stringify(rpsls(i)))
 } catch {
     console.log(`Usage: node-rpsls [SHOT]
     Play the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!
