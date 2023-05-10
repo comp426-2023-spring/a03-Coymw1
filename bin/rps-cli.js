@@ -21,7 +21,7 @@ if (args.h || args.help) {
 }
 
 if (args.r || args.rules) {
-    HTMLFormControlsCollection.log(`Rules for Rock Paper Scissors:
+    console.log(`Rules for Rock Paper Scissors:
 
     - Scissors CUTS Paper
     - Paper COVERS Rock

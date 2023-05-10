@@ -21,7 +21,7 @@ if (args.h || args.help) {
 }
 
 if (args.r || args.rules) {
-    HTMLFormControlsCollection.log(`Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
+   console.log(`Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
 
     - Scissors CUTS Paper
     - Paper COVERS Rock
